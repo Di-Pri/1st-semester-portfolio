@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="icon" href="#" />
+  </head>
+
+  <body class="animation">
+    <header>
+      <nav class="topnav" id="mytopnav">
+        <button class="hamburger" id="ham">
+          <i class="fa fa-bars"></i>
+        </button>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="web.html">Basic Web</a></li>
+          <li><a href="ux.html">Basic UX</a></li>
+          <li><a class="active" href="animation.html">Basic Animation</a></li>
+          <li><a href="content.html">Basic Content</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="parallax" id="parallaxAnimation">
+        <h1>Basic Animation</h1>
+        <p class="arrow">&#9660;</p>
+      </div>
+      <section>
+        <h2>The Game</h2>
+        <div class="task">
+          <h5>Task</h5>
+          <p>
+            The assignment was to create an animated game using HTML, CSS and JavaScript. I draw all graphics myself, as well as recorded
+            and edited some sounds for the game. I supported my game with corresponding documentation.
+          </p>
+        </div>
+        <h4>Solution</h4>
+        <div class="link">
+          <h6>Link:</h6>
+          <a href="http://dianapriediena.com/animation/running_dead/index.html" class="linkButton" target="_blank">game</a>
+        </div>
+        <h3>Paper Prototype</h3>
+        <p>I made this video to explain and demonstrate the initial idea of the game.</p>
+        <div class="tv">
+          <div class="videoScreen">
+            <video id="story" src="video/paperVideo.mp4" poster="images/posterPaper.jpg"></video>
+          </div>
+          <div class="controls">
+            <div id="playBtn"></div>
+            <div id="stopBtn"></div>
+          </div>
+        </div>
+        <h3>Peer review</h3>
+        <p>
+          The purpose of the review was to get information about flaws and possible improvements, and to see how other people understand the
+          game.
+        </p>
+        <div class="vertical">
+          <img src="images/feedback1.png" alt="My feedback" />
+          <img src="images/feedback2.png" alt="Feedback for me" />
+        </div>
+        <h3>Activity Diagram</h3>
+        <p>
+          In diagram, I describe the stages of the game. What happens when a user clicks an object, character's actions and sounds played.
+        </p>
+        <img src="images/activity.png" alt="Activity diagram" />
+        <h3>Sketches</h3>
+        <img src="images/sketchesA.png" alt="Character sketches" />
+        <img src="images/sketchA.jpg" alt="Background sketch" />
+        <h3>Style Tile</h3>
+        <p>Here is a Style Tile that describes all the colors, typography and UI elements I used to design the game.</p>
+        <img src="images/styletileA.jpg" alt="Style Tile" />
+        <h3>Drawings</h3>
+        <p>I draw the characters, background, logo, and UI elements for the game in Adobe Illustrator.</p>
+        <img src="images/characters.png" alt="Character design" />
+        <img src="images/backgroundGame.jpg" alt="Background" />
+        <h3>Design</h3>
+        <p>Here I explain how I made the drawings and why I opted for specific design solutions.</p>
+        <img src="images/designA.jpg" alt="Character Design" />
+        <h3>Sound effects</h3>
+        <p>
+          I created some sounds myself. When clicking a zombie, I used the sound of a burning match, and when clicking a person, I scratched
+          a metal rack. I used Adobe Audition for audio editing.
+        </p>
+        <img src="images/audition.png" alt="Adobe Audition" />
+        <h3>State Machine Diagram</h3>
+        <p>
+          State machine diagram shows transitions between various objects and what happens to them. It helps web developers to write the
+          code.
+        </p>
+        <img src="images/stateMachine.jpg" alt="Diagram" />
+        <h3>Game</h3>
+        <p>On the slides below you can see some screenshots of the game.</p>
+        <div id="slideShow">
+          <img class="slideImage" id="image_0" src="images/game1.jpg" alt="Title screen" />
+          <div>
+            <a id="left">&#10094;</a>
+            <a id="right">&#10095;</a>
+          </div>
+        </div>
+      </section>
+      <div class="backNext">
+        <a href="ux.html" class="arrows">&#x25C0; Back</a>
+        <a href="content.html" class="arrows">Next &#x25B6;</a>
+      </div>
+    </main>
+    <footer>
+      <p>This website was made as part of the study course at KEA in 2020</p>
+    </footer>
+    <script src="js/animation.js"></script>
+  </body>
+</html>

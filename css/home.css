@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;800;900&display=swap");
+
+body {
+  background-color: #e4b358;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 2rem;
+  font-weight: 800;
+}
+
+p {
+  color: aliceblue;
+  font-size: 35px;
+  text-transform: uppercase;
+  width: 65vw;
+}
+
+#link {
+  background: transparent;
+  color: aliceblue;
+  padding: 14px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  border: 2px solid aliceblue;
+}
+
+#link:hover {
+  background-color: rgba(240, 248, 255, 0.363);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.fade_in {
+  opacity: 0;
+  animation: fade_in 3s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fade_in {
+  to {
+    opacity: 100%;
+  }
+}
+
+.fade_in2 {
+  opacity: 0;
+  animation: fade_in 4s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fade_in {
+  to {
+    opacity: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 22px;
+    line-height: 1.5em;
+  }
+}
